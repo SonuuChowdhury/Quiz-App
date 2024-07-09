@@ -4,11 +4,11 @@
   user-select: none;
 }
 
-.mainArea{
+.mainArea {
   display: flex;
 }
 
-.questionElement{
+.questionElement {
   text-align: center;
   padding-top: 1rem;
 }
@@ -18,7 +18,7 @@
   width: 75%;
   height: 100vh;
 }
-.statusButton{
+.statusButton {
   cursor: pointer;
   width: 25%;
   background-color: #81b29a;
@@ -30,25 +30,25 @@
   padding-bottom: 0.5rem;
 }
 
-.optionBox{
+.optionBox {
   background-color: aquamarine;
   height: 40vh;
-  margin-top:2rem ;
+  margin-top: 2rem;
 }
 
-.optionList{
+.optionList {
   height: 100%;
   display: flex;
   list-style-type: none;
   font-size: 1.5rem;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
 }
 
-.optionElements{
+.optionElements {
   cursor: pointer;
-  background-color:#e09f3e ;
+  background-color: #e09f3e;
   border: 2px solid black;
   border-radius: 5px;
   width: 90%;
@@ -57,25 +57,24 @@
   margin-right: 16px;
 }
 
-.optionElements:hover{
-  background-color:red;
+.optionElements:hover {
+  background-color: red;
   color: white;
 }
 
-.buttonControls{
+.buttonControls {
   display: flex;
   justify-content: space-evenly;
 }
 
-
-.ScoreElements{
+.ScoreElements {
   margin-top: 5px;
   margin-left: 10px;
 }
 
-.statusBar{
+.statusBar {
   text-align: center;
-  font-size:2rem;
+  font-size: 2rem;
   width: 100%;
   background-color: #06d6a0;
   margin-top: 2rem;
